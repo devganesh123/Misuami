@@ -882,7 +882,7 @@ footer .footer-contact a span {
   /* font sizes */
 
   body * h1 {
-    font-size: 50px;
+    font-size: 36px;
     font-weight: 700;
   }
 
@@ -1130,5 +1130,19 @@ footer .footer-contact a span {
 
   .copyright-sec p {
     font-weight: 400;
+  }
+}
+@media (min-width: 767px) and (max-width: 1140px) {
+  body * h1 {
+    font-size: 36px;
+  }
+  body * h2 {
+    font-size: 36px;
+  }
+  .accuracy {
+    margin: 3.75em;
+  }
+  .accuracy .accuracy-right {
+    padding: 15px;
   }
 }
